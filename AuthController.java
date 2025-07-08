@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 public class AuthController implements HttpHandler {
+
+    
     @Override
     public void handle(HttpExchange exchange) throws IOException {
         String response = "User login simulated (authentication logic to be implemented).";
