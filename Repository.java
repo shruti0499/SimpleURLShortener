@@ -18,7 +18,7 @@ public class UrlRepository {
 
     public String findOriginalUrl(String key) throws SQLException {
         try (Connection conn = DriverManager.getConnection(jdbcUrl, jdbcUser, jdbcPassword)) {
-            String query = "SELECT original_url FROM urls WHERE short_key = ?";
+            String query = "SELECT original_url FROM urls WHERE short_key =?";
             try (PreparedStatement stmt = conn.prepareStatement(query)) {
                 stmt.setString(1, key);
                 try (ResultSet rs = stmt.executeQuery()) {
