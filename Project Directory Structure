@@ -1,0 +1,28 @@
+SimpleURLShortener/
+├── 📁 src/
+│   ├── 📁 controller/
+│   │   └── UrlController.java
+│   ├── 📁 service/
+│   │   └── UrlShortenerService.java
+│   ├── 📁 util/
+│   │   └── RandomStringGenerator.java
+│   └── Main.java
+│
+├── 📁 src/test/java/
+│   ├── 📁 controller/
+│   │   └── UrlControllerTest.java
+│   ├── 📁 service/
+│   │   └── UrlShortenerServiceTest.java
+│   └── 📁 util/
+│       └── RandomStringGeneratorTest.java
+│
+├── index.html
+│   ├── login
+│   ├── custom-url
+│   ├── 📁 css/
+│   │   └── styles
+│
+│
+├── README.md
+├── .gitignore
+├── pom.xml (if using Maven)
